@@ -100,7 +100,7 @@ public class Servlet_Login extends HttpServlet {
 			
 			// 이메일 보내기
 			String senderMail = "황준상";									// 보내는 사람의 이름
-			String senderName = "atree3139@gmai.com";					// 보내는 사람의 메일 주소
+			String senderName = "gufrus@naver.com";					// 보내는 사람의 메일 주소
 			String receiveMail = request.getParameter("lotte_email");	// 받는 사람의 메일 주소
 			String subject = "롯데정보통신 스펙태클 사이트 가입을 축하드립니다.";		// 메일 제목
 			String message = "롯데정보통신 스펙태클 사이트 가입을 축하드립니다.";		// 메일 내용
